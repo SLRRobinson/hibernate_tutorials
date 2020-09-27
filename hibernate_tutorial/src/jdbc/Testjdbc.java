@@ -11,7 +11,7 @@ public class Testjdbc {
 		String user="Robinson";
 		// Robinson is one of the users of cilentDatabase
 		String pass="okav,1970";
-		// pass is Robinson's password for clientsDatabase
+		//  Robinson's password for clientsDatabase is the above pass variable value.
 		try {
 			System.out.println("Connecting to database" + jdbcUrl);
 			Connection myConn=DriverManager.getConnection(jdbcUrl, user, pass);
